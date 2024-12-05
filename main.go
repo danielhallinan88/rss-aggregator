@@ -9,7 +9,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/cors"
-
+	"github.com/danielhallinan88/rssagg/internal/database"
 	_ "github.com/lib/pq"
 )
 
