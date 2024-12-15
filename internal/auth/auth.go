@@ -1,6 +1,10 @@
 package auth
 
-import "net/http"
+import (
+	"errors"
+	"net/http"
+	"strings"
+)
 
 // Get APIKey extracts an API Key from
 // the headers of an HTTP request
